@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@drawable/std"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="Register" />
+
+    <!-- Edit text for email -->
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:inputType="textEmailAddress"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Email" />
+
+    <!-- Edit text for password -->
+    <EditText
+        android:id="@+id/passwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Password"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="20dp"
+        android:inputType="textPassword" />
+
+    <!-- Button for register with text "Register" -->
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textStyle="bold"
+        android:text="Register" />
+
+    <!-- ProgressBar for loading time -->
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>

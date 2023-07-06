@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/search"
+        android:icon="@drawable/baseline_share_24"
+        android:orderInCategory="101"
+        android:title="SHARE"
+        app:showAsAction="always" />
+    <item android:id="@+id/refresh"
+        android:icon="@drawable/baseline_refresh_24"
+        android:orderInCategory="102"
+        android:title="REFRESH"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/hello"
+        android:orderInCategory="100"
+        android:title="LOGOUT"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/details"
+        android:orderInCategory="100"
+        android:title="ABOUT"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/activity"
+        android:orderInCategory="100"
+        android:title="My Activity"
+        app:showAsAction="ifRoom" />
+</menu>
